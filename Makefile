@@ -28,7 +28,7 @@ endif
 
 install:
 	cp -f hid-rapoo.ko /lib/modules/`uname -r`/kernel/drivers/hid/
-	cp -f install-rapoo-keyboard-driver.sh /usr/local/bin/
+#	cp -f install-rapoo-keyboard-driver.sh /usr/local/bin/
 	cp -f 40-rapoo-keyboard-driver.rules /etc/udev/rules.d/
 	@depmod
 clean:

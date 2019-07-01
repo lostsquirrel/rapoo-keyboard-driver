@@ -2,6 +2,8 @@
 
 #install rapoo v500 driver
 
-rmmod hid-rapoo hid-generic
+#rmmod  hid-generic
+#rmmod hid-rapoo hid-generic
+rmmod hid-generic
 modprobe hid-rapoo
 modprobe hid-generic

@@ -2,6 +2,7 @@
 Some bugfix for rapoo keyboard where some keys are invalid.
 
 # Quick Usage
+sudo apt install libelf-dev
 Compile the driver module with make, make install and run ./install-rapoo-keyboard-driver.sh.
 
 Job done! Then enjoy typing!
